@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo apt-get install xsltproc docbook-xsl uuid-dev
+apt-get install uuid-dev
 
 if [ -f bin/pre_compile ]; then
   echo "-----> Running pre-compile hook"
